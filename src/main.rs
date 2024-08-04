@@ -14,6 +14,8 @@ fn main() {
 
 fn setup(
     mut commands: Commands,
+    mut materials: ResMut<Assets<ColorMaterial>>,
+    mut meshes: ResMut<Assets<Mesh>>,
 ) {
 
 }
