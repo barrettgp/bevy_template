@@ -37,3 +37,7 @@ impl Custom {
         return Custom(1.)
     }
 }
+
+
+#[derive(Component)]
+struct CustomComponent;
