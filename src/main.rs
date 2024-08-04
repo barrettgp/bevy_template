@@ -19,7 +19,9 @@ fn setup(
 }
 
 
-fn tick() {
+fn tick(
+        mut custom: ResMut<Custom>,
+) {
 
 }
 
